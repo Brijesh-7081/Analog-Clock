@@ -1,0 +1,100 @@
+body{
+    background:linear-gradient(#2A669B,#5B57C7,#BF53ED);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.box{
+    box-shadow:0px 0px 10px 10px black;
+    color:black;
+    height: 300px;
+    width: 300px;
+    border: 5px solid aqua;
+    border-radius: 50%;
+    background: linear-gradient(#dde0e2,#555574,#02161a);
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color:black;
+    border-radius: 50%;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    z-index: 1;
+}
+.hand{
+ 
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform-origin: top;
+}
+.second{
+    height: 105px;
+    width: 7px;
+    background-color: red;
+}
+.minute{
+    height: 80px;
+    width: 7px;
+    background-color: lightgreen;
+}
+.hour{
+    height: 50px;
+    width: 8px;
+    background-color: blue;
+}
+.num{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400px;
+    font-weight: bold;
+}
+#num1{
+    text-align: start;
+    margin-left: 45px;
+    margin-top: -7px;
+    
+}
+#num2{
+    text-align: end;
+    margin-left: 147px;
+    margin-top: 7px;
+
+}
+#num3{
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-top: 7px;
+    
+}
+#num4{
+    margin-left: 200px;
+
+}
+#num5{
+    margin-left: 230px;
+}
+#num6{
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 7px;
+    
+}
+#num7{
+    margin-left: 215px;
+}
+#num8{
+    text-align: start;
+    margin-left: 45px;
+    margin-top: 7px;
+    
+}
+#num9{
+    margin-left: 170px;
+}
